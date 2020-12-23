@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    padding:0;
+    height:100%; 
+    background-color: #043a41;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: #297771;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header_logo{
+    display: flex;
+    padding: 8px 24px;
+    align-items: center;
+}
+
+
+
+.Header_logo a{
+    padding-left: 8px;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.Header_Menu ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    padding: 8px 12px;
+}
+
+.Header_Menu li{
+    transition: 0.3s;
+    padding: 8px 12px;
+}
+
+.Header_Menu li:hover{
+    background-color: #043a41;
+    border-radius: 10px;
+}
+
+.Header_Menu a{
+    padding: 8px 12px;
+    font-weight: 100;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+    position: relative;
+    padding: 150px 200px;
+    width: 50%;
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    width: 20%;
+    height: auto;
+  }
+  
+  
+  /* When you mouse over the container, the overlay text will "zoom" in display */
+  .container:hover .overlay {
+    transform: scale(1);
+  }
+  
+  /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
